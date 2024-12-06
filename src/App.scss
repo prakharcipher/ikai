@@ -1,0 +1,50 @@
+.app {
+    .navbar {
+        padding: 0.5rem 2rem;
+        font-size: 0.9rem;
+        display: flex;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background-color: white;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo {
+            img {
+                width: 150px;
+                height: auto;
+            }
+        }
+
+        .nav-container {
+            display: flex;
+            gap: 4.5rem;
+
+            .nav-item {
+                cursor: pointer;
+                opacity: 0.5;
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+
+            .nav-item-socials {
+                display: flex;
+                cursor: pointer;
+                gap: 8px;
+                opacity: 0.5;
+            }
+        }
+    }
+
+    .carousel {
+        img {
+            width: calc(100vw - 4rem);
+            margin-left: 2rem;
+            height: auto;
+        }
+    }
+}
