@@ -1,17 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.dcbef7f1.css",
-    "main.js": "/static/js/main.71fba720.js",
+    "main.css": "/static/css/main.0fe43d52.css",
+    "main.js": "/static/js/main.f45d665b.js",
     "static/js/453.fffae561.chunk.js": "/static/js/453.fffae561.chunk.js",
+    "static/media/thumb1.jpg": "/static/media/thumb1.b059c2b97536cdc04b7b.jpg",
+    "static/media/slide4.jpg": "/static/media/slide4.38d7e3504b5adf37357b.jpg",
+    "static/media/slide2.jpeg": "/static/media/slide2.99ce4d9192f536426991.jpeg",
+    "static/media/slide3.jpeg": "/static/media/slide3.4ce08c05d755c8be1263.jpeg",
+    "static/media/p13.jpeg": "/static/media/p13.e1fc555ac7ae8ed24cc4.jpeg",
+    "static/media/slide5.JPG": "/static/media/slide5.4cf078f8a078dd74da97.JPG",
+    "static/media/p11.jpeg": "/static/media/p11.fb473e0ec43851af3274.jpeg",
+    "static/media/p14.jpeg": "/static/media/p14.8abad1715227cbba9470.jpeg",
+    "static/media/arushi.png": "/static/media/arushi.5164e22772ab4f407424.png",
+    "static/media/p12.JPG": "/static/media/p12.a493a6b0badc06eff7a7.JPG",
+    "static/media/pranaya.png": "/static/media/pranaya.1c6ad84cc8254772637b.png",
     "static/media/slide1.JPG": "/static/media/slide1.fbbb16dcf1faaeb0a9ea.JPG",
+    "static/media/saffron.png": "/static/media/saffron.b37d7eee7809a8b57365.png",
+    "static/media/dlf.png": "/static/media/dlf.706b9853ef6e15e8bb70.png",
+    "static/media/camelias.png": "/static/media/camelias.e4d8688830c05ec30e56.png",
     "static/media/ikai_logo.png": "/static/media/ikai_logo.a4435998e3aeb93cabc2.png",
     "index.html": "/index.html",
-    "main.dcbef7f1.css.map": "/static/css/main.dcbef7f1.css.map",
-    "main.71fba720.js.map": "/static/js/main.71fba720.js.map",
+    "main.0fe43d52.css.map": "/static/css/main.0fe43d52.css.map",
+    "main.f45d665b.js.map": "/static/js/main.f45d665b.js.map",
     "453.fffae561.chunk.js.map": "/static/js/453.fffae561.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dcbef7f1.css",
-    "static/js/main.71fba720.js"
+    "static/css/main.0fe43d52.css",
+    "static/js/main.f45d665b.js"
   ]
 }
