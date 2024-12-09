@@ -1,0 +1,90 @@
+.projects-details-container {
+    .details-container {
+        padding: 0rem 4rem 0 5rem;
+        display: flex;
+        align-items: center;
+        height: 550px;
+        border: 1px solid #f5f5f5;
+
+        .information {
+            width: 40%;
+
+            .project-title {
+                letter-spacing: 4px;
+                opacity: 0.8;
+                .primary {
+                    font-size: 1.4rem;
+                    font-weight: 600;                    
+                }
+
+                .secondary {
+                    margin-left: 4px;
+                    font-size: 1.2rem;
+                }
+            }
+
+            .project-data {
+                font-size: 1.2rem;
+                font-weight: 500;
+                margin-top: 3rem;
+                text-decoration: underline;
+            }
+
+            .detail-row {
+                display: flex;
+                justify-content: space-between;
+                padding: 2rem 0;
+                border-bottom: 5px solid #f5f5f5;
+                width: 70%;
+                
+                .header {
+                    font-weight: 500;
+                    font-size: 1.05rem;
+                    // width: 90px;
+                }
+
+                .value {
+                    margin-left: 4rem;
+                    font-size: 1.05rem;
+                }
+            }
+        }
+
+        .images {
+            width: 60%;
+
+            .image-container {
+                // width: 100%;
+                // width: 100vw; /* Full viewport width */
+                // height: calc(100vh - 73.4px); /* Viewport height minus 73.4px */
+                overflow: hidden; /* Ensures no overflow if the image exceeds the bounds */
+                display: flex; /* Enables centering */
+                justify-content: center; /* Centers image horizontally */
+                align-items: center;
+
+                img {
+                    width: auto;
+                    height: 550px;
+                }
+            }
+        }
+    }
+
+    .content {
+        padding: 0rem 4rem 4rem 5rem;
+        margin-top: 2rem;
+        
+
+        .content-title {
+            font-size: 1.2rem;
+            opacity: 0.8;
+            letter-spacing: 4px;
+            font-weight: 500;
+        }
+
+        .paragraph {
+            margin-top: 1rem;
+            opacity: 0.6;
+        }
+    }
+}

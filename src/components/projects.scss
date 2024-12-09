@@ -1,0 +1,82 @@
+.projects-container {
+
+    .title {
+        padding: 2rem 5rem 0 5rem;
+        font-weight: 500;
+        letter-spacing: 4px;
+        font-size: 1.2rem;
+        opacity: 0.8;
+    }
+ .projects-row-one {
+    display: flex;
+    padding: 0 5rem;
+    // justify-content: center;
+    gap: 5rem;
+    margin-top: 2rem;
+
+    a {
+        text-decoration: none;
+    }
+
+    .project {
+        cursor: pointer;
+        .thumb {
+            width: 350px;
+            height: 240px;
+            background-position: no-repeat;
+            background-position: center;
+            background-size: cover;
+            border-radius: 4px;
+        }
+
+        .name {
+            text-align: center;
+            color: #A09330;
+            font-weight: 500;
+            margin-top: 8px;
+        }
+
+        .location {
+            text-align: center;
+            margin-top: 2px;
+            font-size: 0.86rem;
+        }
+    }
+ } 
+ 
+ .projects-row-two {
+    display: flex;
+    padding: 0 5rem;
+    gap: 5rem;
+    margin-top: 3rem;
+
+    a {
+        text-decoration: none;
+    }
+
+    .project {
+
+        .thumb {
+            width: 350px;
+            height: 240px;
+            background-position: no-repeat;
+            background-position: center;
+            background-size: cover;
+            border-radius: 4px;
+        }
+
+        .name {
+            text-align: center;
+            color: #A09330;
+            font-weight: 500;
+            margin-top: 8px;
+        }
+
+        .location {
+            text-align: center;
+            margin-top: 2px;
+            font-size: 0.86rem;
+        }
+    }
+ }
+}
