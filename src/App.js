@@ -56,7 +56,7 @@ function App() {
       <div className='about-container'>
         <div className='title'>Meet The Founders</div>
         <div className='team-container'>
-          <div className='member'>
+          <a className='member' href="https://www.linkedin.com/in/pranaya-gupta-505aa4202/" target="_blank">
             <div className='photo'>
               <img alt="profile" src={pranaya} />
             </div>
@@ -65,8 +65,8 @@ function App() {
             </div>
             <div className='college'>Aayojan School of Architecture</div>
             <div className='companies'>5+ years experienced</div>
-          </div>
-          <div className='member'>
+          </a>
+          <a className='member' href="https://www.linkedin.com/in/arushi-garg-3a7762212/" target="_blank">
             <div className='photo'>
               <img alt="profile" src={arushi} />
             </div>
@@ -75,7 +75,7 @@ function App() {
             </div>
             <div className='college'>CEPT University</div>
             <div className='companies'>4+ years experienced</div>
-          </div>
+          </a>
         </div>
       </div>
       <div className='customer-container'>
@@ -133,7 +133,7 @@ function App() {
               <PiInstagramLogoThin />
               <CiLinkedin />
             </div>
-            <div className='hello' onClick={handleMail}><span className='caption'>Say hello!</span> studioikai24@gmail.com</div>
+            <a className='hello' href="mailto:studioikai24@gmail.com" target="_blank"><span className='caption'>Say hello!</span> studioikai24@gmail.com</a>
           </div>
         </div>
       </div>

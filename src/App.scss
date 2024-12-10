@@ -105,6 +105,11 @@
             margin-top: 4rem;
             justify-content: space-evenly;
 
+            a {
+                text-decoration: none;
+                color: unset;
+            }
+
             .member {
                 .photo {
                     width: 200px;
@@ -262,6 +267,12 @@
             align-items: center;
 
             .footer-right {
+
+                a {
+                    text-decoration: none;
+                    color: unset;
+                }
+
                 .socials {
                     display: flex;
                     gap: 8px;

@@ -14,27 +14,27 @@ export default function Projects() {
                     <div className='name'>Serenity Haven</div>
                     <div className='location'>Bangalore</div>
                 </Link>
+                <Link to={`/projects/5`} className='project'>
+                    <div className='thumb' style={{backgroundImage: `url(${projects[5].images[0]})`}}></div>
+                    <div className='name'>Ananta</div>
+                    <div className='location'>Kurukshetra</div>
+                </Link>
                 <Link to={`/projects/2`} className='project'>
                 <div className='thumb' style={{backgroundImage: `url(${projects[2].images[0]})`}}></div>
                     <div className='name'>The Grid House</div>
                     <div className='location'>New Delhi</div>
                 </Link>
+            </div>
+            <div className='projects-row-two'>
                 <Link to={`/projects/3`} className='project'>
                     <div className='thumb' style={{backgroundImage: `url(${projects[3].images[0]})`}}></div>
                     <div className='name'>The Nukkad Tapri</div>
                     <div className='location'>Dehradhun</div>
                 </Link>
-            </div>
-            <div className='projects-row-two'>
                 <Link to={`/projects/4`} className='project'>
                     <div className='thumb' style={{backgroundImage: `url(${projects[4].images[0]})`}}></div>
                     <div className='name'>The Urban Sanctuary</div>
                     <div className='location'>Jaipur</div>
-                </Link>
-                <Link to={`/projects/5`} className='project'>
-                    <div className='thumb' style={{backgroundImage: `url(${projects[5].images[0]})`}}></div>
-                    <div className='name'>Ananta</div>
-                    <div className='location'>Kurukshetra</div>
                 </Link>
             </div>
         </div>
