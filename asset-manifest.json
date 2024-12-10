@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fd33e8a4.css",
-    "main.js": "/static/js/main.d054c985.js",
+    "main.css": "/static/css/main.ab179d4e.css",
+    "main.js": "/static/js/main.53b19bba.js",
     "static/js/453.1f54156e.chunk.js": "/static/js/453.1f54156e.chunk.js",
     "static/media/p57.jpg": "/static/media/p57.5be3d9d02cd55f35b7ba.jpg",
     "static/media/p53.jpg": "/static/media/p53.918edecb2376b861db65.jpg",
@@ -34,12 +34,12 @@
     "static/media/camelias.png": "/static/media/camelias.e4d8688830c05ec30e56.png",
     "static/media/ikai_logo.png": "/static/media/ikai_logo.a4435998e3aeb93cabc2.png",
     "index.html": "/index.html",
-    "main.fd33e8a4.css.map": "/static/css/main.fd33e8a4.css.map",
-    "main.d054c985.js.map": "/static/js/main.d054c985.js.map",
+    "main.ab179d4e.css.map": "/static/css/main.ab179d4e.css.map",
+    "main.53b19bba.js.map": "/static/js/main.53b19bba.js.map",
     "453.1f54156e.chunk.js.map": "/static/js/453.1f54156e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd33e8a4.css",
-    "static/js/main.d054c985.js"
+    "static/css/main.ab179d4e.css",
+    "static/js/main.53b19bba.js"
   ]
 }
