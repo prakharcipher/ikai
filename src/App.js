@@ -3,8 +3,6 @@ import slide2 from "./slide2.jpeg";
 import slide3 from "./slide3.jpeg";
 import slide4 from "./slide4.jpg";
 import slide5 from "./slide5.JPG";
-// import slide4 from "./slide4.jpg";
-// import slide5 from "./slide5.jpg";
 import pranaya from "./pranaya.png";
 import arushi from "./arushi.png";
 import { CiLinkedin } from "react-icons/ci";
@@ -24,41 +22,30 @@ import { Carousel } from 'react-responsive-carousel';
 import './App.scss';
 
 function App() {
+
+  const handleMail = () => {
+    window.location.href = "studioikai24@gmail.com";
+  }
+
   return (
     <div className="app">
       <div className='carousel'>
         {/* <img alt="slide" src={slide1} /> */}
-        <Carousel autoPlay={true} interval={3000} infiniteLoop={true} showArrows={true} showThumbs={false} showIndicators={false}>
+        <Carousel autoPlay={true} interval={3000} infiniteLoop={true} showArrows={true} showThumbs={false} showIndicators={false} showStatus={false}>
             <div className="image-container">
-                <img src={slide1} />
-                {/* <p className="legend">
-                  <div className="title">Serenity Haven</div>
-                  <div className="button">See Details</div>
-                </p> */}
+                <img src={slide5} />               
             </div>
             <div className="image-container">
-                <img src={slide2} />
-                {/* <p className="legend">
-                  <div className="title">The Nukkad Tapri</div>
-                  <div className="button">See Details</div>
-                </p> */}
+                <img src={slide2} />                
             </div>
             <div className="image-container">
-                <img src={slide3} />
-                {/* <p className="legend">
-                  <div className="title">Serenity Haven</div>
-                  <div className="button">See Details</div>
-                </p> */}
+                <img src={slide3} />                
+            </div>
+            <div className="image-container">
+                <img src={slide1} />                
             </div>
             <div className="image-container">
                 <img src={slide4} />
-                {/* <p className="legend">
-                  <div className="title">Serenity Haven</div>
-                  <div className="button">See Details</div>
-                </p> */}
-            </div>
-            <div className="image-container">
-                <img src={slide5} />
                 {/* <p className="legend">
                   <div className="title">Serenity Haven</div>
                   <div className="button">See Details</div>
@@ -146,7 +133,7 @@ function App() {
               <PiInstagramLogoThin />
               <CiLinkedin />
             </div>
-            <div className='hello'><span className='caption'>Say hello!</span> studioikai24@gmail.com</div>
+            <div className='hello' onClick={handleMail}><span className='caption'>Say hello!</span> studioikai24@gmail.com</div>
           </div>
         </div>
       </div>

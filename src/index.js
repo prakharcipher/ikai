@@ -18,9 +18,9 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <div className='navbar'>
-        <div className='logo'>
+        <Link to="/" className='logo'>
           <img alt="logo" src={logo} />
-        </div>
+        </Link>
         <div className='nav-container'>          
           <div className='nav-item'>
             <Link to="/">Home</Link>
@@ -40,18 +40,9 @@ root.render(
         <Route path="/projects/:id" element={<ProjectDetails />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/contact" element={<Contact />} />
-      </Routes>
-      {/* <div className='footer'>
-        <div className='footer-element'>© 2024 Studio Ikai Pvt Ltd</div>
-      </div> */}
-      
-      {/* <Route path="/about" component={About} />
-      <Route path="/contact" component={Contact} /> */}
+      </Routes>     
     </BrowserRouter>    
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

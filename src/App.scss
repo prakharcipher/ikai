@@ -42,16 +42,19 @@
 
     .carousel {
 
+        .carousel.carousel-slider .control-arrow:hover {
+            background: none;
+        }
+
         .image-container {
             width: 100vw; /* Full viewport width */
-            height: calc(100vh - 73.4px); /* Viewport height minus 73.4px */
+            height: auto;
             overflow: hidden; /* Ensures no overflow if the image exceeds the bounds */
             display: flex; /* Enables centering */
             justify-content: center; /* Centers image horizontally */
             align-items: center;
 
             .legend {
-                // background-color: white;
                 width: 100%;
                 margin-left: 0;
                 left: 0;
@@ -72,7 +75,6 @@
                 }
 
                 .button {
-                    // background-color: black;
                     opacity: 1;
                     color: white;
                     width: 200px;
@@ -85,11 +87,6 @@
                 }
             }
         }
-        // img {
-        //     min-width: 100%; /* Ensures image fills the width */
-        //     min-height: 100%; /* Ensures image fills the height */
-        //     object-fit: cover;
-        // }
     }
 
     .about-container {
@@ -260,6 +257,7 @@
         .footer-container {
             width: 100%;
             display: flex;
+            opacity: 0.5;
             justify-content: space-between;
             align-items: center;
 
