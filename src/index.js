@@ -12,6 +12,8 @@ import { FaWhatsapp } from "react-icons/fa";
 import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {isMobile} from 'react-device-detect';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,12 +24,12 @@ root.render(
           <img alt="logo" src={logo} />
         </Link>
         <div className='nav-container'>          
-          <div className='nav-item'>
+          {!isMobile && <div className='nav-item'>
             <Link to="/">Home</Link>
-          </div>
-          <div className='nav-item'>
+          </div>}
+          {!isMobile && <div className='nav-item'>
             <Link to="/projects">Projects</Link>
-          </div>
+          </div>}
           <a href="https://wa.me/918979972550" target="_blank" className='nav-item action'>
             <FaWhatsapp />     
             <div>Talk to Us</div>

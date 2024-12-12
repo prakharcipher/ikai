@@ -71,3 +71,14 @@ code {
       }
   }
 }
+
+@media screen and (min-width: '300px') and (max-width: '900px') {
+  .navbar {
+    padding: 0.5rem 1rem;
+    .nav-container {
+      .action {
+
+      }
+    }
+  }
+}

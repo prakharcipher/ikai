@@ -293,3 +293,86 @@
         }
     }
 }
+
+@media screen and (min-width: '300px') and (max-width: '900px') {
+    .app {
+        .about-container {
+            width: 80%;
+            margin-left: 10%;
+            .team-container {                
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 2.5rem;
+
+                .member {
+                    
+                }
+            }
+        }
+
+        .customer-container {
+            .banner {
+                margin-top: 4rem;
+                background-color: #F5F5F5;
+                padding: 2rem 0;
+                .row1 {
+                    width: 80%;
+                    margin-left: 10%;
+                    display: flex;
+                    justify-content: space-between;
+    
+                    img {
+                        width: auto;
+                        height: 30px;
+                    }
+                }
+    
+                .row2 {
+                    width: 80%;
+                    margin-left: 10%;
+                    display: flex;
+                    justify-content: space-evenly;
+                    margin-top: 3rem;
+    
+                    img {
+                        width: auto;
+                        height: 30px;
+                    }
+                }
+            }
+        }
+
+        .choose-container {
+            .values {
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 80%;
+                margin-left: 10%;
+                gap: 2.5rem;
+
+                .value-item {
+                    width: 80%;
+                }
+            }
+        }
+
+        .footer {
+            padding: 1rem;
+            .footer-container {
+                align-items: center;
+                .copyright {
+                    font-size: 0.8rem;
+                    font-weight: 500;
+                }
+
+                .footer-right {
+                    .hello {
+                        font-size: 0.7rem;
+                    }
+                }
+            }
+        }
+    }
+}

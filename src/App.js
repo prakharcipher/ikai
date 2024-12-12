@@ -18,6 +18,7 @@ import { MdVerifiedUser } from "react-icons/md";
 import { BsClockFill } from "react-icons/bs";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
+import {isMobile} from 'react-device-detect';
 
 import './App.scss';
 
@@ -67,7 +68,7 @@ function App() {
             <div className='companies'>5+ years experienced</div>
           </a>
           <a className='member' href="https://www.linkedin.com/in/arushi-garg-3a7762212/" target="_blank">
-            <div className='photo'>
+            <div className='photo second'>
               <img alt="profile" src={arushi} />
             </div>
             <div className='profile'>
@@ -133,10 +134,16 @@ function App() {
               <PiInstagramLogoThin />
               <CiLinkedin />
             </div>
-            <a className='hello' href="mailto:studioikai24@gmail.com" target="_blank"><span className='caption'>Say hello!</span> studioikai24@gmail.com</a>
+            <a className='hello' href="mailto:studioikai24@gmail.com" target="_blank">{!isMobile && <span className='caption'>Say hello!</span>} studioikai24@gmail.com</a>
           </div>
         </div>
       </div>
+
+      {/* <div className="footer">
+        <div className="footer-container">
+
+        </div>
+      </div> */}
     </div>
   );
 }
