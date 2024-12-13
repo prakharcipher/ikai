@@ -1,8 +1,14 @@
-import slide1 from "./slide1.JPG";
-import slide2 from "./slide2.jpeg";
-import slide3 from "./slide3.jpeg";
+import slide1 from "./slide1.jpg";
+import slide2 from "./slide2.jpg";
+import slide3 from "./slide3.png";
 import slide4 from "./slide4.jpg";
-import slide5 from "./slide5.JPG";
+import slide5 from "./slide5.jpg";
+import slide6 from "./slide6.JPG";
+import slide7 from "./slide7.jpeg";
+import slide8 from "./slide8.jpeg";
+import slide9 from "./slide9.JPG";
+import slide10 from "./slide10.JPG";
+
 import pranaya from "./pranaya.png";
 import arushi from "./arushi.png";
 import { CiLinkedin } from "react-icons/ci";
@@ -32,25 +38,46 @@ function App() {
     <div className="app">
       <div className='carousel'>
         {/* <img alt="slide" src={slide1} /> */}
-        <Carousel autoPlay={true} interval={3000} infiniteLoop={true} showArrows={true} showThumbs={false} showIndicators={false} showStatus={false}>
+        <Carousel autoPlay={true} interval={1500} infiniteLoop={true} showArrows={true} showThumbs={false} showIndicators={false} showStatus={false}>
             <div className="image-container">
-                <img src={slide5} />               
+                <img src={slide5} />
+                <div className="caption">Camelias, Gurgaon</div>
             </div>
             <div className="image-container">
-                <img src={slide2} />                
+                <img src={slide9} />
+                <div className="caption">DLF The Grove, Gurgaon</div>
             </div>
             <div className="image-container">
-                <img src={slide3} />                
+                <img src={slide2} />
+                <div className="caption">Farmhouse, Delhi</div>                
             </div>
             <div className="image-container">
-                <img src={slide1} />                
+                <img src={slide3} />
+                <div className="caption">Bungalow, Haldwani</div>                
+            </div>
+            <div className="image-container">
+                <img src={slide1} />
+                <div className="caption">Villas, Goa</div>                
+            </div>
+            <div className="image-container">
+                <img src={slide6} /> 
+                <div className="caption">Office Space, Jaipur</div>               
+            </div>
+            <div className="image-container">
+                <img src={slide7} />
+                <div className="caption">Serenity Haven, Bangalore</div>                
             </div>
             <div className="image-container">
                 <img src={slide4} />
+                <div className="caption">Air BnB, Udaipur</div>
                 {/* <p className="legend">
                   <div className="title">Serenity Haven</div>
                   <div className="button">See Details</div>
                 </p> */}
+            </div>
+            <div className="image-container">
+                <img src={slide9} />
+                <div className="caption">Residential House, Delhi</div>                
             </div>
         </Carousel>
       </div>
