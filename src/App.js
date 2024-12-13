@@ -5,9 +5,7 @@ import slide4 from "./slide4.jpg";
 import slide5 from "./slide5.jpg";
 import slide6 from "./slide6.JPG";
 import slide7 from "./slide7.jpeg";
-import slide8 from "./slide8.jpeg";
 import slide9 from "./slide9.JPG";
-import slide10 from "./slide10.JPG";
 
 import pranaya from "./pranaya.png";
 import arushi from "./arushi.png";
