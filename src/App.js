@@ -39,7 +39,7 @@ function App() {
         <Carousel autoPlay={true} interval={1500} infiniteLoop={true} showArrows={true} showThumbs={false} showIndicators={false} showStatus={false}>
             <div className="image-container">
                 <img src={slide5} />
-                <div className="caption">Camelias, Gurgaon</div>
+                <div className="caption">Camellias, Gurgaon</div>
             </div>
             <div className="image-container">
                 <img src={slide9} />
@@ -67,15 +67,7 @@ function App() {
             </div>
             <div className="image-container">
                 <img src={slide4} />
-                <div className="caption">Air BnB, Udaipur</div>
-                {/* <p className="legend">
-                  <div className="title">Serenity Haven</div>
-                  <div className="button">See Details</div>
-                </p> */}
-            </div>
-            <div className="image-container">
-                <img src={slide9} />
-                <div className="caption">Residential House, Delhi</div>                
+                <div className="caption">Air BnB, Udaipur</div>                
             </div>
         </Carousel>
       </div>
