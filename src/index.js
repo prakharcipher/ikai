@@ -30,7 +30,7 @@ root.render(
           {!isMobile && <div className='nav-item'>
             <Link to="/projects">Projects</Link>
           </div>}
-          <a href="https://wa.me/918979972550" target="_blank" className='nav-item action'>
+          <a href="https://wa.me/919149228687?text=Hi, I would like to know more about the services." target="_blank" className='nav-item action'>
             <FaWhatsapp />     
             <div>Talk to Us</div>
           </a>
