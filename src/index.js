@@ -10,7 +10,8 @@ import { BrowserRouter } from 'react-router-dom';
 import { Route, Routes } from 'react-router-dom';
 import { FaWhatsapp } from "react-icons/fa";
 import './index.scss';
-import App from './App';
+// import App from './App';
+import Fallback from './Fallback';
 import reportWebVitals from './reportWebVitals';
 import {isMobile} from 'react-device-detect';
 
@@ -24,12 +25,12 @@ root.render(
           <img alt="logo" src={logo} />
         </Link>
         <div className='nav-container'>          
-          {!isMobile && <div className='nav-item'>
+          {/* {!isMobile && <div className='nav-item'>
             <Link to="/">Home</Link>
-          </div>}
-          {!isMobile && <div className='nav-item'>
+          </div>} */}
+          {/* {!isMobile && <div className='nav-item'>
             <Link to="/projects">Projects</Link>
-          </div>}
+          </div>} */}
           <a href="https://wa.me/919149228687?text=Hi, I would like to know more about the services." target="_blank" className='nav-item action'>
             <FaWhatsapp />     
             <div>Talk to Us</div>
@@ -37,7 +38,7 @@ root.render(
         </div>
       </div>
       <Routes>
-        <Route exact path="/" element={<App />} />
+        <Route exact path="/" element={<Fallback />} />
         <Route exact path="/projects" element={<Projects />} />
         <Route path="/projects/:id" element={<ProjectDetails />} />
         <Route exact path="/about" element={<About />} />
