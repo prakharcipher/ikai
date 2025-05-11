@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.1332c0c3.css",
-    "main.js": "/static/js/main.a47cea81.js",
+    "main.css": "/static/css/main.0c40ce6d.css",
+    "main.js": "/static/js/main.d4f5a84a.js",
     "static/js/453.1f54156e.chunk.js": "/static/js/453.1f54156e.chunk.js",
-    "static/media/slide3.png": "/static/media/slide3.a695d40133f4b1f1ec43.png",
     "static/media/p57.jpg": "/static/media/p57.5be3d9d02cd55f35b7ba.jpg",
     "static/media/p53.jpg": "/static/media/p53.918edecb2376b861db65.jpg",
     "static/media/p56.jpg": "/static/media/p56.638375bf3dba2c7e20cf.jpg",
@@ -16,33 +15,21 @@
     "static/media/p59.jpg": "/static/media/p59.654d8523522c037d3c5e.jpg",
     "static/media/p21.png": "/static/media/p21.3414ac3e5f32b7f2efb3.png",
     "static/media/p31.jpg": "/static/media/p31.22011fba776ce556f9d4.jpg",
-    "static/media/slide2.jpg": "/static/media/slide2.eafacbd24e34eeda4802.jpg",
-    "static/media/slide1.jpg": "/static/media/slide1.d4f66e82ff704bdcef5e.jpg",
     "static/media/p13.jpeg": "/static/media/p13.e1fc555ac7ae8ed24cc4.jpeg",
     "static/media/p11.jpeg": "/static/media/p11.fb473e0ec43851af3274.jpeg",
     "static/media/p33.jpg": "/static/media/p33.90514958c5353d6e2e12.jpg",
     "static/media/p14.jpeg": "/static/media/p14.8abad1715227cbba9470.jpeg",
     "static/media/p32.jpg": "/static/media/p32.27d85ce06d65abce848c.jpg",
-    "static/media/arushi.png": "/static/media/arushi.5164e22772ab4f407424.png",
-    "static/media/slide4.jpg": "/static/media/slide4.c5a8c96a2b754400c9ce.jpg",
-    "static/media/slide7.jpeg": "/static/media/slide7.2cd80d2c5acc79b03ee7.jpeg",
     "static/media/p12.JPG": "/static/media/p12.a493a6b0badc06eff7a7.JPG",
-    "static/media/pranaya.png": "/static/media/pranaya.1c6ad84cc8254772637b.png",
     "static/media/p42.JPG": "/static/media/p42.fbbb16dcf1faaeb0a9ea.JPG",
-    "static/media/slide5.jpg": "/static/media/slide5.5271994311b6b7291845.jpg",
-    "static/media/slide9.JPG": "/static/media/slide9.0b10f68ac8067de30be2.JPG",
-    "static/media/slide6.JPG": "/static/media/slide6.522b9406f3589707e967.JPG",
-    "static/media/saffron.png": "/static/media/saffron.b37d7eee7809a8b57365.png",
-    "static/media/dlf.png": "/static/media/dlf.706b9853ef6e15e8bb70.png",
-    "static/media/camelias.png": "/static/media/camelias.e4d8688830c05ec30e56.png",
     "static/media/ikai_logo.png": "/static/media/ikai_logo.a4435998e3aeb93cabc2.png",
     "index.html": "/index.html",
-    "main.1332c0c3.css.map": "/static/css/main.1332c0c3.css.map",
-    "main.a47cea81.js.map": "/static/js/main.a47cea81.js.map",
+    "main.0c40ce6d.css.map": "/static/css/main.0c40ce6d.css.map",
+    "main.d4f5a84a.js.map": "/static/js/main.d4f5a84a.js.map",
     "453.1f54156e.chunk.js.map": "/static/js/453.1f54156e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1332c0c3.css",
-    "static/js/main.a47cea81.js"
+    "static/css/main.0c40ce6d.css",
+    "static/js/main.d4f5a84a.js"
   ]
 }
